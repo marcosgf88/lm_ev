@@ -1,16 +1,28 @@
-header{
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
     width: 100%;
     margin: 0%;
     padding: 0%;
+    /*position: sticky;
+    top: 0;*/
     overflow: hidden;
 }
-#div_head{
+
+#div_head {
     width: 80%;
-    margin:0 auto;
+    margin: 0 auto;
     padding-left: 5vw;
     overflow: hidden;
 }
-.icono_bolsa{
+
+.icono_bolsa {
     height: 5%;
     width: 40%;
     padding-left: 20px;
@@ -18,7 +30,8 @@ header{
     background-repeat: no-repeat;
     display: inline-block;
 }
-#icono_idioma{
+
+#icono_idioma {
     height: 5vh;
     padding-top: 10px;
     padding-left: 20px;
@@ -26,7 +39,8 @@ header{
     background-repeat: no-repeat;
     display: inline-block;
 }
-#icono_lugar{
+
+#icono_lugar {
     padding-top: 10px;
     padding-left: 20px;
     margin-left: 10px;
@@ -35,31 +49,48 @@ header{
     background-repeat: no-repeat;
     display: inline-block;
 }
-#div_img img{
+
+#div_img img {
     width: 100%;
     height: auto;
 }
-.div_nav{
+
+.div_nav {
     height: 22%;
     width: 30%;
     float: left;
     margin-left: 2vw;
     margin-top: 2vh;
 }
-#div_img{
+
+#div_img {
     height: 22%;
     width: 30%;
     float: left;
 }
-li{
+
+li {
     display: inline;
     margin-left: 15%;
 }
-nav{
+
+nav {
     border-top: 1px solid grey;
     clear: both;
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
+}
+
+#img_index {
+    background-image: url(../img/hotel.png);
+    position: relative;
+}
+#div_index{
+    background-color: white;
+    position: absolute;
+    top: 5%;
+    left: 25%;
 }
