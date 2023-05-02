@@ -3,48 +3,60 @@ header{
     margin: 0%;
     padding: 0%;
     overflow: hidden;
-    border: 1px solid blue;
+}
+#div_head{
+    width: 80%;
+    margin:0 auto;
+    padding-left: 5vw;
+    overflow: hidden;
 }
 .icono_bolsa{
-    border: 1px solid blueviolet;
-    height: 5vh;
+    height: 5%;
+    width: 40%;
+    padding-left: 20px;
     background-image: url(../img/iconos/ico-shop.png);
     background-repeat: no-repeat;
     display: inline-block;
 }
 #icono_idioma{
-    border: 1px solid blueviolet;
     height: 5vh;
+    padding-top: 10px;
+    padding-left: 20px;
     background-image: url(../img/iconos/ico-lang.png);
     background-repeat: no-repeat;
     display: inline-block;
 }
 #icono_lugar{
-    border: 1px solid blueviolet;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: 10px;
     height: 5vh;
     background-image: url(../img/iconos/ico-loc.png);
     background-repeat: no-repeat;
-    display: inline-;
+    display: inline-block;
 }
-.div_nav img{
+#div_img img{
     width: 100%;
     height: auto;
-    border: 1px solid black;
 }
 .div_nav{
-    height: 22vh;
-    width: 25vw;
+    height: 22%;
+    width: 30%;
     float: left;
-    margin-left: 5vw;
-    margin-top: 5vh;
-    overflow: hidden;
-    display: inline-block;
-    border: 1px solid red;
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+#div_img{
+    height: 22%;
+    width: 30%;
+    float: left;
 }
 li{
     display: inline;
+    margin-left: 15%;
 }
 nav{
+    border-top: 1px solid grey;
     clear: both;
 }
 a{
