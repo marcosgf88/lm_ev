@@ -1,0 +1,49 @@
+header{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    border: 1px solid blue;
+}
+.icono_bolsa{
+    background-color: blueviolet;
+    height: 5vh;
+    background-image: url(../img/iconos/ico-shop.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+#icono_idioma{
+    background-image: url(../img/iconos/ico-lang.png);
+    background-repeat: no-repeat;
+    display: inline;
+}
+#icono_lugar{
+    background-image: url(../img/iconos/ico-location.png);
+    background-repeat: no-repeat;
+    display: inline;
+}
+.div_nav img{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+.div_nav{
+    height: 22vh;
+    width: 25vw;
+    float: left;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    overflow: hidden;
+    display: inline-block;
+    border: 1px solid red;
+}
+li{
+    display: inline;
+}
+nav{
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
