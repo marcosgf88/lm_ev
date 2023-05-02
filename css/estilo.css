@@ -6,21 +6,25 @@ header{
     border: 1px solid blue;
 }
 .icono_bolsa{
-    background-color: blueviolet;
+    border: 1px solid blueviolet;
     height: 5vh;
     background-image: url(../img/iconos/ico-shop.png);
     background-repeat: no-repeat;
     display: inline-block;
 }
 #icono_idioma{
+    border: 1px solid blueviolet;
+    height: 5vh;
     background-image: url(../img/iconos/ico-lang.png);
     background-repeat: no-repeat;
-    display: inline;
+    display: inline-block;
 }
 #icono_lugar{
-    background-image: url(../img/iconos/ico-location.png);
+    border: 1px solid blueviolet;
+    height: 5vh;
+    background-image: url(../img/iconos/ico-loc.png);
     background-repeat: no-repeat;
-    display: inline;
+    display: inline-;
 }
 .div_nav img{
     width: 100%;
