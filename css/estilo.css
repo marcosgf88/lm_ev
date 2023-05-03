@@ -10,9 +10,10 @@ header {
     width: 100%;
     margin: 0%;
     padding: 0%;
-    /*position: sticky;
-    top: 0;*/
+    position: sticky;
+    top: 0;
     overflow: hidden;
+    z-index: 1;
 }
 
 #div_head {
@@ -86,11 +87,42 @@ a {
 
 #img_index {
     background-image: url(../img/hotel.png);
+    background-size: 1400px;
+    height: 60vh;
+    background-position: center 40%;
     position: relative;
+    overflow: hidden;
 }
 #div_index{
     background-color: white;
+    width: 60%;
+    text-align: center;
+    padding: 10px;
     position: absolute;
     top: 5%;
-    left: 25%;
+    left: 22%;
+}
+#logo_index{
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+#article_ordi{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    text-align: center;
+}
+.caja_index{
+    border: 1px solid red;
+    height: 40vh;
+    width: 30vw;
+    display: inline-block
+}
+.caja_index img{
+
+    width: 100px;
+    height: 100%;
+
 }
