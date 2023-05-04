@@ -28,7 +28,6 @@ header {
 }
 
 .icono_bolsa {
-    border: 1px solid red;
     height: 5%;
     width: 30%;
     padding-left: 30px;
@@ -102,15 +101,17 @@ a {
     color: inherit;
 }
 /* estilos para la parte de los section  */
-#img_index {
+.img_cabecer {
     width: 100%;
     height: 60vh;
-    background-image: url(../img/hotel.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center 60%;
     position: relative;
     overflow: hidden;
+}
+.img_cabecer#index{
+    background-image: url(../img/hotel.png);
 }
 #div_index{
     background-color: white;
@@ -141,12 +142,6 @@ a {
     border: 1px solid grey;
     border-radius: 2%;
     position: relative;
-}
-.caja_index a{
-    position: absolute;
-    left: 40%;
-    bottom: 3%;
-   
 }
 #centrado_3_3{
     margin-left: 5%;
@@ -185,8 +180,8 @@ a {
     background-position: center 60%;
     height: 20vh;
     border-radius: 2%;
-    border-radius: 2%;
-}#img_actividad5{
+}
+#img_actividad5{
     background-image: url(../img/index/img5.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -194,6 +189,11 @@ a {
     height: 20vh;
     border-radius: 5%;
 }
+#img_actividad6{
+    height: 20vh;
+    border-radius: 5%;
+}
+
 
 /* Footer */
 
@@ -291,3 +291,74 @@ iframe{
 #div_tlf p:first-child{
     text-align: center;
 }
+
+/* Empiezan los estilos de habitaciones */
+
+.img_cabecer#habitaciones{
+    background-image: url(../img/habitaciones.jpg);
+    background-repeat: no-repeat;
+    background-size: 180%;
+    background-position: center 20%;
+}
+
+.div_hab{
+    border: 1px solid grey;
+    width: 50vw;
+    height: 12vw;
+    margin-left: 25vw;
+    margin-bottom: 2vw;
+}
+#div_habvid{
+    display: inline;
+}
+#div_habtxt{
+    height: 80%;
+    width: 50%;
+    text-align: center;
+    float: right;
+    margin-right: 5% ;
+}
+.div_hab#banner{
+    border: 1px solid coral;
+    border-left: none;
+    border-right: none;
+    height: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+#divbanner{
+    text-align: center;
+}
+.div_hab#img{
+    border: none;
+    background-image: url(../img/iglu.jpg);
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-position: center;
+}
+.div_hab_eventos{
+    height: 100%;
+    width: 50%;
+    margin-right: 3%;
+    margin-top: 2%;
+    text-align: center;
+    float: right;
+    overflow: hidden;
+}
+.div_hab_eventos2{
+    height: 100%;
+    width: 40%;
+    float: left;
+    overflow: hidden;
+}
+.div_hab_eventos3{
+    height: 100%;
+    width: 40%;
+    float: right;
+    overflow: hidden;
+}
+
+
+
