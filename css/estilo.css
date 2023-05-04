@@ -28,6 +28,7 @@ header {
 }
 
 .icono_bolsa {
+    border: 1px solid red;
     height: 5%;
     width: 30%;
     padding-left: 30px;
@@ -35,6 +36,7 @@ header {
     background-size: 30%;
     background-repeat: no-repeat;
     display: inline-block;
+   
 }
 
 #icono_idioma {
@@ -197,7 +199,6 @@ a {
 
 footer{
     background-color: rgb(222, 222, 222);
-    position: relative;
     overflow: hidden;
 }
 #foot_log{
@@ -208,7 +209,6 @@ footer{
     margin-bottom: 10%;
 }
 #foot_ye{
-    font-size: 30px;
     height: 10%;
     width: 20%;
     float:left  ;
@@ -228,7 +228,6 @@ footer{
 }
 #foot_llegar{
     float: left;
-    font-size: 22px;
     font-weight: bold;
     margin-left: 20%;
     clear: both;
@@ -240,7 +239,6 @@ footer{
     clear: both;
 }
 #div_foot{
-    width: 80%;
     background-color: rgb(222, 222, 222);
     text-align: center;
     margin-left: 10%;
@@ -259,10 +257,37 @@ iframe{
     margin-left: 10%;
 }
 
-.div_loc{
-    border: 5px solid red;
-    width: 30%;
-    height: 90%;
+#div_loc{
+    width: 35vw;
+    height: 35vw;
     float: left;
     text-align: justify;
+    margin-left: 20%;
+    margin-top: 4%;
+}
+#div_loc2{
+    border: 5px solid grey;
+    border-radius: 2dvh;
+    width: 25vw;
+    height: 20vw;
+    float: left;
+    text-align: justify;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 2%;
+    padding: 1%;
+}
+#div_loc2 div>ul>li{
+    font-weight: bold;
+}
+#div_loc2 ul ul li{
+    list-style: none;
+    text-align: left;
+}
+#div_tlf{
+    border-top: 1px solid grey;
+
+}
+#div_tlf p:first-child{
+    text-align: center;
 }
