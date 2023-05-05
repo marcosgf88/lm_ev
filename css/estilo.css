@@ -468,8 +468,48 @@ iframe{
         transform: translate(3px);
       }
 }
-  
-  
+  /* estilos boton y confirmar */
+#boton{
+    
+    font-size:15px;
+    font-weight:bold;
+    color:white;
+    background-color: #B7D313;
+    border:0px;
+    width:100px;
+    height:25px;
+}
+#div_boton{
+    padding-left: 45%;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+input:valid{
+    border-color: #B7D313;
+}
+input:invalid{
+    border-color: rgb(161, 19, 55);
+}
+/* tabla */
+td{
+    border: 1px solid black;
+}
+th{
+    text-align: left;
+    border: 1px solid black;
+}
+/* aside */
+
+aside{
+    float: right;
+    border-left: 1px solid grey;
+    padding-left: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+aside h2{
+    text-align: center;
+}
 
 
 

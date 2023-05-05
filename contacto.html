@@ -1,76 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/estilo.css" />
     <title>Contacto</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div id="div_head">
-          <div id="div_nav_iz">
-            <p>Life Style Exclusive Hotel</p>
-            <div>
-              <div class="icono_bolsa">
-                <a href="">Promociones</a>
-              </div>
-              <div class="icono_bolsa">
-                <a href="">Tienda Online</a>
-              </div>
+      <div id="div_head">
+        <div id="div_nav_iz">
+          <p>Life Style Exclusive Hotel</p>
+          <div>
+            <div class="icono_bolsa">
+              <a href="">Promociones</a>
             </div>
-          </div>
-  
-          <div id="div_img">
-            <img src="img/Logo.png" alt="Logo de la web" />
-          </div>
-  
-          <div id="div_nav_dr">
-            <p>654 321 698 - 961 478 523</p>
-            <div id="icono_idioma">
-              <a href="">English</a>
-            </div>
-            <div id="icono_lugar">
-              <a href="localizacion.html">Localización</a>
+            <div class="icono_bolsa">
+              <a href="">Tienda Online</a>
             </div>
           </div>
         </div>
-        <nav>
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="habitaciones.html">HABITACIONES</a></li>
-            <li><a href="">CONTACTO</a></li>
-          </ul>
-        </nav>
-      </header>
-      <footer>
+
+        <div id="div_img">
+          <img src="img/Logo.png" alt="Logo de la web" />
+        </div>
+
+        <div id="div_nav_dr">
+          <p>654 321 698 - 961 478 523</p>
+          <div id="icono_idioma">
+            <a href="">English</a>
+          </div>
+          <div id="icono_lugar">
+            <a href="localizacion.html">Localización</a>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="habitaciones.html">HABITACIONES</a></li>
+          <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h2 class="centrar">Para más información <br />CONTÁCTANOS</h2>
+    <p class="centrar">
+      Para ampliar información sobre alguno de nuestros servicios,pedir alguna
+      cita o reserva en nuestro restaurante, no dudes en ponerte en contacto con
+      nosotros.
+    </p>
+    <p class="centrar">¡Te esperamos!</p>
+    <aside>
+      <article>
         <div>
-          <div id="foot_log"><img src="img/Logo_trans.png" /></div>
-          <div id="foot_ye">
-            <p>
-              Yellowstone, Wyoming 82190,EE.UU.<br />T.(+34)669 559 447T.(+34)963
-              852 741<br />info@ordi.es
-            </p>
-            <div><img src="img/solo-adultos_es.png" /></div>
-          </div>
-          <div id="foot_rr2"><img src="img/logo-hotelero-ruralka.png" width="300"/></div>
-          <div id="foot_rr"><img src="img/sello-traveller-footer.png"  /></div>
+          <h2>CONTACTANOS EN:</h2>
+          <p>(+34) 665485699</p>
+          <p>(+34) 949539499</p>
+          <p>info@ordi.es</p>
         </div>
         <div>
-          <a id="foot_llegar" href="localizacion.html">¿Como llegar?</a>
+          <h2>HORARIO DE RECEPCIÓN</h2>
+          <p>Lunes a Jueves</p>
+          <p>de 09:30 a 22:30</p>
+          <p>Viernes a Domingo</p>
+          <p>de 08:30 a 22:30</p>
         </div>
-        <div id="foot_social">
-          <a href="https://www.facebook.com" target="_blank"><img src="img/ico-facebook.png" /></a>
-          <a href="https://www.instagram.com" target="_blank"><img src="img/ico-instagram.png" /></a>
-          <a href="https://www.youtube.com" target="_blank"><img src="img/ico-youtube.png" /></a>
+        <div>
+          <h2>SIGUENOS EN:</h2>
+          <div>
+            <a href="https://www.facebook.com" target="_blank"
+              ><img src="img/ico-facebook.png " width="20%"
+            /></a>
+            <a href="https://www.instagram.com" target="_blank"
+              ><img src="img/ico-instagram.png" width="20%"
+            /></a>
+            <a href="https://www.youtube.com" target="_blank"
+              ><img src="img/ico-youtube.png" width="20%"
+            /></a>
+          </div>
+          <h2>INFORMACIÖN DE INTERES</h2>
+          <div>
+            <a href="localizacion.html">¿Como llegar?</a>
+            <p>Ver actividades</p>
+            <p>Preguntas frecuentes</p>
+            <p>Ver testimonios</p>
+          </div>
         </div>
-        <div id="div_foot">
+      </article>
+      <article>
+        <div>
+
+        </div>
+      </article>
+    </aside>
+    <article>
+      <div class="div_hab" id="banner">
+        <form>
+          <label for="nombre">Nombre</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            pattern="[A-Z,a-z]{2,50}"
+            required
+          />
+
+          <label for="ciudad">Ciudad Opcional</label>
+          <input type="text" id="ciudad" name="ciudad" />
+          <br>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="telefono">Teléfono</label>
+          <input
+            type="tel"
+            id="telefono"
+            name="telefono"
+            pattern="[0-9]{5,20}"
+            required
+          />
+          <br>
+
+          <label for="mensaje">Asunto</label><br>
+          <textarea id="mensaje" name="mensaje"></textarea><br>
+
+          <label for="mensaje">Consulta</label><br>
+          <textarea id="mensaje" name="mensaje"></textarea>
+
+          <input
+            type="checkbox"
+            id="confirmacion"
+            name="confirmacion"
+            required
+          />
+          <label for="confirmacion"
+            >Confirmo que he leído y acepto los términos y condiciones:</label
+          >
+
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+      <div class="div_hab" id="banner">
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2">Información Básica sobre Protección de datos</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Responsable:</td>
+              <td>Ordi,A Better Life, S.L</td>
+            </tr>
+            <tr>
+              <td>Finalidad:</td>
+              <td>Atender su solicitud</td>
+            </tr>
+            <tr>
+              <td>Legitimación:</td>
+              <td>Ejecución de un correo</td>
+            </tr>
+            <tr>
+              <td>Destinatario:</td>
+              <td>
+                No se cederán los datos a terceros, salvo obligación legal
+              </td>
+            </tr>
+            <tr>
+              <td>Derechos</td>
+              <td>
+                Tiene derecho a acceder, rectificar y suprimir los datos, así
+                como otros derechos, indicados en la información adicional, que
+                puede ejercer dirigiéndose a Les Molines, 2-03450 Banyeres de
+                Mariola
+              </td>
+            </tr>
+          </tbody>
+        </table> 
+      </div>
+      <p class="cen">Más información en nuestra política de privacidad</p>
+    </article>
+    <div class="div_hab" id="banner">
+      <p>ORDI, THE ENERGY HOUSE | Yellowstone, Wyoming 822190, EE.UU.</p>
+    </div>
+    <footer>
+      <div>
+        <div id="foot_log"><img src="img/Logo_trans.png" /></div>
+        <div id="foot_ye">
           <p>
-            Actividad realizada para el módulo de luenguaje de marcas. Curso
-            2022-2023. Marcos González
+            Yellowstone, Wyoming 82190,EE.UU.<br />T.(+34)669 559 447T.(+34)963
+            852 741<br />info@ordi.es
           </p>
+          <div><img src="img/solo-adultos_es.png" /></div>
         </div>
-      </footer>
-</body>
+        <div id="foot_rr2">
+          <img src="img/logo-hotelero-ruralka.png" width="300" />
+        </div>
+        <div id="foot_rr"><img src="img/sello-traveller-footer.png" /></div>
+      </div>
+      <div>
+        <a id="foot_llegar" href="localizacion.html">¿Como llegar?</a>
+      </div>
+      <div id="foot_social">
+        <a href="https://www.facebook.com" target="_blank"
+          ><img src="img/ico-facebook.png"
+        /></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><img src="img/ico-instagram.png"
+        /></a>
+        <a href="https://www.youtube.com" target="_blank"
+          ><img src="img/ico-youtube.png"
+        /></a>
+      </div>
+      <div id="div_foot">
+        <p>
+          Actividad realizada para el módulo de luenguaje de marcas. Curso
+          2022-2023. Marcos González
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
